@@ -1,0 +1,286 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Noto Sans', sans-serif ;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.hr-style{
+    border: 8px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    border-bottom: none;
+    width:200px;
+    margin: auto;
+}
+.form a{
+  text-decoration: none;
+  color: red !important;
+}
+/*Header starts*/
+.banner-container{
+  min-height:300px;
+}
+.navbar{
+    padding: 5px;
+    background-color: #243a4d;
+    font-weight: bolder;
+    font-family:'Noto Sans', sans-serif ;
+}
+.nav-link{
+    color: white;
+    margin:5px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+   
+    color: rgb(221, 0, 0);
+    transform:scale(1.1);
+}
+.dropdown-toggle
+{
+    color: white;
+}
+.dropdown-menu-style{
+    padding: 10px;
+    
+}
+.dropdown-menu-style a{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    text-decoration: none;
+    padding:.5rem;
+}
+.dropdown-menu-style li{
+   transition: .4s;
+   background-color: rgb(212, 208, 208);
+   border-radius: .5rem;
+   margin: .5rem;
+}
+.dropdown-menu-style li:hover{
+    background-color: #91b4d6;
+    border-radius: 5px;
+    text-decoration: none;
+    padding:5px;
+}
+.search-button{
+  padding: 3px 15px;
+  font-size: 13px;
+  color:white;
+  border-radius: 5px;
+  background:rgb(129, 160, 185);
+  transition: .4s;
+}
+.search-button:hover{
+  color:black;
+  background:white;
+}
+.search-box{
+  padding: 3px;
+  font-size: 13px;
+  width: 150px;
+  border-radius: 5px ;
+}
+.banner-contents h1{
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 3.5rem;
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+.banner-contents p{
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .banner-contents h1{
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 2.5rem;
+        font-family: 'Handlee', cursive;
+        color: white;
+    }
+    .banner-contents p{
+        font-size: 12px;
+        font-family: cursive;
+        color: white;
+    }
+    .banner-container{  
+     height: 400px;
+  }
+  }
+.banner-contents button{
+    margin: .5rem;
+}
+/*popup menu*/
+
+.btn-close{
+  font-size: .7rem;
+  border:.2rem solid black;
+  border-radius: .3rem;
+  justify-content: end;
+}
+.center {
+  color: #000;
+  margin-top: 20%;
+  margin-left: 33%;
+}
+.modal-dialog-centered{
+  justify-content: center;
+}
+.modal-content{
+  width: 80% !important;
+  border-radius: 1rem !important;
+}
+.modal-content h2{
+  color:cadetblue;
+  padding: 1rem;
+  font-weight: bolder;
+}
+  .form{
+    margin:.5rem;
+  }
+  .form-element{
+    margin: .5rem;
+  } 
+  .fild{
+    color: black;
+    padding: .2rem;
+    display: block;
+  }
+  .fild-checkbox{
+    color: rgb(0, 7, 104);
+    padding: .2rem;
+    display: inline;
+  }
+  .fild-size{
+    width:100%;
+    border-radius: .5rem;
+  }
+  @media only screen and (max-width: 600px){
+    .center{
+      color: #000;
+      margin-top: 20%;
+      margin-left:auto;
+      text-align: center;
+    }
+}
+  
+/*Header end*/
+
+/*Features Start*/
+#features{
+    padding:5% 8%;
+    background-color: #343a40;
+    color: white;
+}
+#features h2{
+  font-size: 30px;
+  font-weight: 600;
+  color:rgb(255, 0, 0) ;
+}
+.features-coll{
+    border:1px solid #e1e8eb;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.features-coll:hover{
+    transform:scale(1.1);
+    box-shadow: 6px 10px 5px black;
+}
+.features-coll h3{
+    color:rgb(228, 27, 27);
+}
+.icon-style{
+    background: #5277b3;
+    padding: 15px;
+    margin: 5px 0;
+}
+/*Freatures end*/
+ /* about me starts*/
+ #contact , h5{
+     background-color: #697886;
+     color:white;
+     font-weight: lighter;
+     font-size: 20px;
+ }
+ @media only screen and (max-width: 600px){
+  #contact, h5{
+    background-color: #697886;
+    color:white;
+    font-weight: lighter;
+    font-size: 10px;
+}
+ }
+ #contact hr{
+     margin-bottom: 20px;
+     margin-top: 10px;
+ }
+ .contact-row-border{
+   margin: 30px 30px 0px 30px;
+     border: 2px solid black;
+     padding: 5px;
+     
+     border-radius: 20px;
+ }
+ .contact-row-border a{
+     text-decoration: none;
+     color: #fff;
+ }
+
+
+ /*carousel starts*/
+ #carouselExampleControls{
+     background-color: #505861;
+ }
+ /*carousel starts ends*/
+
+ #lawyer-bio{
+    padding: 5% 8%;
+    background-color: #697886;
+    color:black;
+    font-weight: lighter;
+}
+ #lawyer-bio hr{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.card{
+    margin-top:20px;
+    margin-bottom:20px;
+    transition: .4s;
+    border: 1px solid black;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+.card-img-border{
+    border-top-left-radius: 35px;
+    
+}
+.card:hover{
+    transform:scale(1.1);
+    box-shadow: 6px 10px 5px black;
+}
+ /**/
+ footer{
+   color: white;
+   background-color: #243a4d;
+   padding: 5px;
+ }
+ footer a{
+   color: #fff;
+   text-decoration: none;
+ }

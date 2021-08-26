@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Galada&display=swap" rel="stylesheet">
+    <!--Font awesom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link boostsrap 4-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+     <div>
+         <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-ellipsis-v text-white"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">হোম</a>
+                      </li>
+                      <li class="nav-item dropdown menu-area">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          প্রাক্টিস এরিয়া
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-style" style="width:250px;" aria-labelledby="navbarDropdown">
+                          <li><a href="">ব্যবসায়িক</a> </li>
+                          <li><a href="">পুজি বাজার</a> </li>
+                          <li><a href="">কর্মসংস্থান</a> </li>
+                          <li><a href="">তথ্য প্রযুক্তি</a> </li>
+                          <li><a href="">অভিভাবকত্ব</a> </li>
+                          <li><a href="">বিবাহ বিচ্ছেদ</a> </li>
+                          <li><a href="">সন্তানের হেফাজত</a> </li>
+                          <li><a href="">প্রশাসনিক আইন</a> </li>
+                          <li><a href="">ভূমি আইন</a> </li>
+                          <li><a href="">ব্যাংকিং ও আর্থিক</a> </li>
+                          <li><a href="">পারিবারিক সমস্যা</a> </li>
+                          <li><a href="">হাইকোর্টের বিষয়গুলি</a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#lawyer-bio">আইনজীবি</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">জিজ্ঞাসা</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">মতামত</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          ভাষা
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item " href="indexen.html">Eng</a></li>
+                          <li><a class="dropdown-item active" href="#">বাংলা</a></li>
+                        </ul> 
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="search-box me-2" type="search" placeholder="খুজুন" aria-label="Search">
+                      <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              <section id="banner">
+                <div class="banner-container">
+                    <div class="banner-contents">      
+                      <div class="row mx-0">
+                        <div class="col-md-6 m-0">
+                                   <!-- Login modal -->
+                                  <div class="center">
+                                    <h4>আপনার একটি অ্যাকাউন্ট আছে?<br><strong style="color:red;">এখানে লগইন করুন</strong></strong></h4>
+                                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Login">
+                                        Login
+                                      </button>
+                                  </div>   
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="Login" tabindex="-1" aria-labelledby="LoginLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content">
+                                            <div class="d-flex">
+                                              <h2 class="m-auto pb-0" id="LoginLabel">লগইন করুন</h2>
+                                              <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                                             
+                                            </div>
+                                              <div class="form">
+                                                <div class="form-element">
+                                                  <label class="fild" for="email">ইমেল</label>
+                                                  <input class="fild fild-size" type="text" id="email" placeholder="ইমেইল প্রদান করুন">
+                                                </div>
+                                                <div class="form-element">
+                                                  <label class="fild" for="password">পাসওয়ার্ড</label>
+                                                  <input class="fild fild-size" type="password" id="password" placeholder="পাসওয়ার্ড লিখুন">
+                                                </div>
+                                                <div class="form-element">
+                                                  <input type="checkbox" id="remember-me">
+                                                  <label for="remember-me">আমাকে মনে রাখুন</label>
+                                                </div>
+                                                <div class="form-element">
+                                                  <a href="#">পাসওয়ার্ড ভুলে গেছেন?</a>
+                                                </div>
+                                              </div>
+                                              <button type="button" class="btn btn-primary">লগইন</button> 
+                                          </div>
+                                        </div>
+                                      </div>
+                          </div>
+                            <div class="col-md-6 m-0">
+                                 <!-- Registration modal -->
+                                  <div class="center">
+                                    <h4>Lawyer.com এ নতুন? <br><strong style="color:red;">একটি অ্যাকাউন্ট খুলুন</strong></h4>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Registration">
+                                      নিবন্ধন করুন
+                                    </button>
+                                  </div>  
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="Registration" tabindex="-1" aria-labelledby="LoginLabel" aria-hidden="true">
+                                      <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                          <div class="d-flex">
+                                            <h2 class="m-auto pb-0" id="RegistrationLabel">নিবন্ধন করুন</h2>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                           
+                                          </div>
+                                          <div class="form">
+                                            <div class="form-element">
+                                              <label class="fild" for="user-name">ব্যবহারকারীর নাম</label>
+                                              <input class="fild fild-size" type="text" id="user-name" placeholder="আপনার নাম লিখুন">
+                                            </div>
+                                            <div class="form-element">
+                                              <label class="fild" for="email">ইমেল</label>
+                                              <input class="fild fild-size" type="text" id="email" placeholder="ইমেইল প্রদান করুন">
+                                            </div>
+                                            <div class="form-element">
+                                              <label class="fild" for="phone">মোবাইল ফোন নাম্বার</label>
+                                              <input class="fild fild-size" type="tel" id="phone" placeholder="মোবাইল ফোন নাম্বার দিন">
+                                            </div>
+                                            <div class="form-element">
+                                              <label class="fild" for="password">পাসওয়ার্ড</label>
+                                              <input class="fild fild-size" type="password" id="password" placeholder="পাসওয়ার্ড দিন">
+                                            </div><div class="form-element">
+                                              <label class="fild" for="confirm-password">পাসওয়ার্ড নিশ্চিত করুন</label>
+                                              <input class="fild fild-size" type="password" id="confirm-password" placeholder="পাসওয়ার্ড পুনরায় টাইপ করুন">
+                                            </div>
+                                            
+                                            <div class="form-element">
+                                              <input type="checkbox" id="Login">
+                                              <label class="fild-checkbox" for="LogIn">লগইন থাকুন</label>
+                                            </div>
+                                            <div class="form-element">
+                                              <button type="button" class="btn btn-primary m-0">নিবন্ধন সম্পন্ন করুন</button>
+                                            </div>
+                                            <div class="form-element">
+                                              <a class=" p-0 m-0" href="#">পাসওয়ার্ড ভুলে গেছেন?</a>
+                                            </div>
+                                          </div>
+                                        </div>    
+                                      </div>
+                                    </div>
+                          </div>          
+                     </div>
+                   </div>
+                </div>
+           </section>
+         </header>
+         <main>
+
+           <!--Featuers starts-->
+              <section id="features">
+               <h2 class="text-center ">আমাদের অনুশীলন এরিয়া</h2>
+                <div class="row">
+                  <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-coll text-center">
+                      <img class="img-fluid" src="img/img2.jpg" alt="demo-img">
+                      <h3 class="p-2">ব্যবসায়িক</h3>
+                      <p>বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                        প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন, 
+                        আমি তখন তাঁহাদের উপহাস করিতাম</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-coll text-center">
+                      <img class="img-fluid" src="img/img2.jpg" alt="demo-img">
+                      <h3 class="p-2">পুজি বাজার</h3>
+                      <p>বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                        প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন, 
+                        আমি তখন তাঁহাদের উপহাস করিতাম</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-coll text-center">
+                      <img class="img-fluid" src="img/img2.jpg" alt="demo-img">
+                      <h3 class="p-2">কর্মসংস্থান</h3>
+                      <p>বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                        প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন, 
+                        আমি তখন তাঁহাদের উপহাস করিতাম</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-coll text-center">
+                      <img class="img-fluid" src="img/img2.jpg" alt="demo-img">
+                      <h3 class="p-2">তথ্য প্রযুক্তি</h3>
+                      <p>বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                        প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন, 
+                        আমি তখন তাঁহাদের উপহাস করিতাম</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-coll text-center">
+                      <img class="img-fluid" src="img/img2.jpg" alt="demo-img">
+                      <h3 class="p-2">অভিভাবকত্ব</h3>
+                      <p>বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                        প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন, 
+                        আমি তখন তাঁহাদের উপহাস করিতাম</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-coll text-center">
+                      <img class="img-fluid" src="img/img2.jpg" alt="demo-img">
+                      <h3 class="p-2">বিবাহ বিচ্ছেদ</h3>
+                      <p>বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                        প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন, 
+                        আমি তখন তাঁহাদের উপহাস করিতাম</p>
+                    </div>
+                  </div>
+                  </div> 
+                </div>
+              </section>
+              <!--Featuers ends-->
+              <!--image gelary starts-->
+              <div id="carouselExampleControls" class="carousel  p-lg-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/img1.jpg" class="d-block w-100 rounded-3" height="400" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img2.jpg" class="d-block w-100 rounded-3" height="400" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img3.jpg" class="d-block w-100 rounded-3" height="400" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--Img gelary ens-->
+
+              
+             
+              <!--lawyer-bio part starts-->
+              <section id="lawyer-bio">
+                <div class="section-title ">
+                  <h3 class="p-2 text-center">আইনজীবি</h3>
+                  <hr class="hr-style">
+                </div>
+                <div class="row card-size">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                      <img src="img/lawyer6.jpg" class="card-img-top card-img-border" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                          প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন,</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card" >
+                      <img src="img/lawyer7.jpg" class="card-img-top card-img-border" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                          প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন,</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card" >
+                      <img src="img/lawyer8.png" class="card-img-top card-img-border" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                          প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন,</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card" >
+                      <img src="img/lawyer5.jpg" class="card-img-top card-img-border" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                          প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন,</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row card-size">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card" >
+                      <img src="img/laweyr1.jpg" class="card-img-top card-img-border" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                          প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন,</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card" >
+                      <img src="img/lawyer2.jpg" class="card-img-top card-img-border" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                          প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন,</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card" >
+                      <img src="img/lawyer3.png" class="card-img-top card-img-border" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                          প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন,</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="card" >
+                      <img src="img/lawyer4.png" class="card-img-top card-img-border" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">বহুকাল হইলো আমি একবার পালামৌ প্রদেশে গিয়াছিলাম, 
+                          প্রত্যাগমন করিলে পর সেই অঞ্চলের বৃত্তান্ত লিখিবার নিমিত্ত দুই-এক জন বন্ধুবান্ধব আমাকে পুনঃপুন অনুরোধ করিতেন,</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </section>
+                
+              <!--lawyer-bio part ends-->
+              <!--Contact starts-->
+               <section id="contact">
+                    <div class="section-titler">
+                      <h3 class="p-2 text-center">আমাদের সাথে যোগাযোগ</h3>
+                      <hr class="hr-style">
+                    </div>
+                    <div class="contact-row-border">
+                        <div class="besic-desc ms-5 mt-2 mb-2  fw-bolder">
+                          <i class="fas fa-id-card fa-2x rounded-circle "></i>
+                          <h5 class="fw-bolder">যোগাযোগ করুন</h5>
+                                <b>ঠিকানা:-</b>&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                ঢাকা <br>
+                                <b>ইমেল:-</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                lawyer@gmail.com <br>
+                                <b>মোবাইল ফোন:-</b>&nbsp
+                                +88####
+                          <h5 class="fw-bolder">আমাদের অনুসরণ করুন</h5>
+                               <a href=""><i class="fab fa-facebook-f m-1"></i></a> 
+                               <a href=""><i class="fab fa-youtube m-1"></i></a> 
+                               <a href=""><i class="fab fa-linkedin-in m-1"></i></a> 
+                               <a href=""><i class="fab fa-twitter m-1"></i></a> 
+                        </div>
+                    
+                     </div>
+              </section>
+              <!--contact ends-->
+         </main>
+         <footer class="text-center">
+           <div><i class="far fa-copyright d-inline-block"></i>2021 The Lawyer.com</div>
+           <div > 
+            <a href=""><i class="fab fa-facebook-f m-1"></i></a> 
+            <a href=""><i class="fab fa-youtube m-1"></i></a> 
+            <a href=""><i class="fab fa-linkedin-in m-1"></i></a>                    
+            <a href=""><i class="fab fa-twitter m-1"></i></a>                  
+          </footer>
+     </div>
+    <!--jQurey-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+                        
+                  

@@ -1,0 +1,7 @@
+English Fonts
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+bangla fonts
+font-family: 'Baloo Da 2', cursive;
+font-family: 'Galada', cursive;
